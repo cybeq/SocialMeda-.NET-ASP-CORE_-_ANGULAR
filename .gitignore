@@ -1,0 +1,26 @@
+# Build output
+bin/
+obj/
+uploads/
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+*.nuget.cache
+*.nupkg
+**/packages/*
+*.lock.json
+!**/packages/*.targets
+!**/packages/*.props
+
+# MSTest Test Results
+TestResults/
+
+# StyleCop
+StyleCopReport.xml
+
+# Resharper files
+_resharper*/ 
+*.ReSharper*/ 
+
+# Mac-specific files
+.DS_Store
